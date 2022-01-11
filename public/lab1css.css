@@ -11,8 +11,8 @@
 
 .main {
     display: grid;
-    grid-template-rows: 20% 30% 20% 30%; /* 4 строки */
-    grid-template-columns: 25% 50% 25%; /* 3 столбца */
+    grid-template-rows: 20% 30% 20% 30%;
+    grid-template-columns: 25% 50% 25%;
     grid-template-areas:
         "post1 post1 post1"
         "post2 post3 post4"
