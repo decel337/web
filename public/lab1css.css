@@ -82,6 +82,9 @@ footer {
     float: right;
     margin-right: 30px;
 }
-.five {
+article p {
     margin: 30px;
+}
+nav h3 {
+    text-align: center;
 }
