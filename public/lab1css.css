@@ -9,7 +9,7 @@
     --border-color: #000000ff;
 }
 
-.main {
+main {
     display: grid;
     grid-template-rows: 20% 30% 20% 30%; /* 4 строки */
     grid-template-columns: 25% 50% 25%; /* 3 столбца */
@@ -26,40 +26,44 @@
     width: 100%;
     height: 100%;
 }
-.post1 {
+header {
     grid-area: post1;
     background-color: var(--background-color1);
     border: 1px solid var(--border-color);
     line-height: 80px;
     word-break: break-all;
 }
-.post2 {
+nav {
     grid-area: post2;
     background-color: var(--background-color2);
     border: 1px solid var(--border-color);
     word-break: break-all;
 }
-.post3 {
+section {
+    text-align: center;
     grid-area: post3;
     background-color: var(--background-color3);
     border: 1px solid var(--border-color);
     word-break: break-all;
 }
-.post4 {
+aside {
+    text-align: right;
     grid-area: post4;
     background-color: var(--background-color4);
     border: 1px solid var(--border-color);
     line-height: 569px;
     word-break: break-all;
 }
-.post5 {
+article {
+    text-align: left;
     grid-area: post5;
     background-color: var(--background-color5);
     border: 1px solid var(--border-color);
     line-height: 80px;
     word-break: break-all;
 }
-.post6 {
+footer {
+    text-align: right;
     grid-area: post6;
     background-color: var(--background-color6);
     border: 1px solid var(--border-color);
